@@ -1,33 +1,74 @@
-.App {
-  text-align: center;
+.directors-name-main{
+
+  /* display: grid; */
+  /* width: 30%; */
+   display: flex;
+  /* flex-direction: column; */ 
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: start;
+  /* cursor: pointer; */
+
+  /* justify-content: flex-start; */
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.directors-list{
+  font-size: 115%;
+  width: 30%;
+  cursor: pointer;
+  margin-top: 3%;
+  margin-left: 15%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.director-head{
+  font-family: sans-serif;
+  /* margin-left: 10%; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #696969;
 }
 
-.App-link {
-  color: #61dafb;
+.movies-details{
+  width: 250px;
+  height: 470px;
+  /* ; */
+  /* display: grid; */
+  margin-left: 3%;
+  border: 5px solid dimgray;
+  /* grid-auto-rows: 30%; */
+  background-color: #C0C0C0;
+  margin-top: 3%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.directors-list-head{
+  width: 100%;
+  margin-top: 3%;
+  /* border-bottom: 2px solid red; */
+}
+
+.edit-button{
+  background-color: #778899;
+  cursor: pointer;
+}
+
+.delete-button{
+  background-color: #778899;
+  cursor: pointer;
+  float: right;
+}
+
+.directors-list-main-division{
+  width: 20%;
+  /* margin-left: 3%; */
+  background-color: lightgray;
+  max-height: 900px;
+  overflow-y: scroll;
+}
+
+.movies-details-main-division{
+  display: grid;
+  grid-template-columns: 55% 30%;
+  margin-left: 3%;
+  /* line-height: 3%; */
+  /* flex-direction: row; */
 }
